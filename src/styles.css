@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/cyan-orange.css';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+html, body { height: 100%; background-color: lightgray;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+    --primary-gradient: linear-gradient(80deg, #2c2c2c, #5b5b5b);
+    --hover-gradient: linear-gradient(45deg, #5e5e5e, #5b5b5b);
+}
+mat-toolbar { box-shadow: 12 8px 12px rgb(55, 55, 55); }
+
